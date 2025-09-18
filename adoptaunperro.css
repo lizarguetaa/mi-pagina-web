@@ -1,0 +1,66 @@
+/* Fondo de la página */
+body {
+    background-color: #fff8f0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Estilo del título principal */
+h1 {
+    color: #ff6b6b;
+    text-shadow: 1px 1px 3px #ffd6d6;
+}
+
+/* Card personalizada */
+.card {
+    transition: transform 0.3s, box-shadow 0.3s;
+    border-radius: 15px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+/* Efecto hover sobre la card */
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Imagen de la card */
+.card-img-top {
+    height: 250px;
+    object-fit: cover;
+    border-bottom: 3px solid #ff6b6b;
+}
+
+/* Botones */
+.btn-primary {
+    background-color: #ff6b6b;
+    border-color: #ff6b6b;
+    transition: background-color 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #ff3b3b;
+    border-color: #ff3b3b;
+}
+
+.btn-danger {
+    background-color: #ffa94d;
+    border-color: #ffa94d;
+}
+
+.btn-danger:hover {
+    background-color: #ff922b;
+    border-color: #ff922b;
+}
+
+/* Texto de la descripción */
+.card-text {
+    font-size: 0.95rem;
+    color: #333;
+}
+
+/* Estado "En adopción" */
+.fw-bold.text-success {
+    font-size: 1rem;
+    color: #28a745 !important;
+}
